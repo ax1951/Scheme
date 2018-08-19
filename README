@@ -1,4 +1,4 @@
-The Scheme programming Language
+The Scheme Programming Language
 
 # how to run the .scm program
 If you have mit-scheme installed, then type "mit-scheme < test.scm" or "scheme < test.scm" in terminal to run test.scm.
