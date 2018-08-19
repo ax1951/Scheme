@@ -1,0 +1,10 @@
+((car (cdr (list + - * /))) 17 5)
+
+1. Evaluate the variables list, +, -, *, and /, yielding the list, addition, subtraction, multiplication, and division procedures.
+2. Apply the list procedure to the addition, subtraction, multiplication, and division procedures, yielding a list containing these procedures in order.
+3. Evaluate the variable cdr, yielding the cdr procedure.
+4. Apply the cdr procedure to the list produced in step 2, yielding a list containing the subtraction, multiplication, and division procedures.
+5. Evaluate the variable car, yielding the car procedure.
+6. Apply the car procedure to the list produced in step 4, yielding the subtraction procedure.
+7. Evaluate the constants 17 and 5, yielding 17 and 5.
+8. Apply the subtraction procedure to 17 and 5, yielding 12.
